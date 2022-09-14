@@ -1,0 +1,85 @@
+.side-top {
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+.logo-heading {
+  color: var(--dark-blue);
+  font-size: 35px;
+}
+
+.dash-divider {
+  color: var(--dark-blue);
+  height: 2px;
+}
+
+.container-main {
+  width: 15vw;
+}
+
+.menu-icon {
+  font-size: 25px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  margin-top: auto;
+  margin-left: 15px;
+}
+
+.menu-icon:hover {
+  color: var(--dark-blue);
+}
+
+.sidebar {
+  position: absolute;
+  left: -15vw;
+  height: 100%;
+  width: 15vw;
+  transition: left 0.5s ease-in-out;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  font-family: var(--asul);
+}
+
+.menu-item:hover {
+  background-color: var(--dark-blue);
+}
+
+.menu-item:hover .menu-item-name,
+.menu-item:hover .menu-item-icon {
+  color: #fff;
+}
+
+.menu-item-name {
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-item-icon {
+  font-size: 22px;
+  margin-bottom: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 900px) {
+  .sidebar {
+    left: -50vw;
+    width: 46vw;
+  }
+}

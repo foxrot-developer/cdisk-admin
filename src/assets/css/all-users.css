@@ -1,0 +1,11 @@
+.action-icon-block {
+  color: #f8423a;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.action-icon-unblock {
+  color: #368b23;
+  cursor: pointer;
+  font-size: 25px;
+}

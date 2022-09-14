@@ -1,0 +1,17 @@
+.pending {
+  background-color: #edcd45;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.approved {
+  background-color: green;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.rejected {
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 10px;
+}

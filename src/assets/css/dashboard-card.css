@@ -1,0 +1,40 @@
+.dash-card {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 10px 0;
+  animation: changeBackgroundColor 7s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: var(--light-blue);
+  }
+  50% {
+    background-color: var(--dark-blue);
+    color: #fff;
+  }
+  100% {
+    background-color: var(--light-blue);
+  }
+}
+
+.dash-card:hover {
+  transform: translateY(-10px);
+  background-color: var(--light-blue);
+}
+
+.card-icon {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.card-heading {
+  font-family: var(--neuton);
+  font-weight: 550;
+}

@@ -1,0 +1,11 @@
+export const ALL_USERS = 'ALL_USERS';
+export const ALL_CONTACTS = 'ALL_CONTACTS';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
+export const USER_ACTION = 'USER_ACTION';
+export const ALL_VIDEOS = 'ALL_VIDEOS';
+export const ALL_REPORTS = 'ALL_REPORTS';
+export const ADMIN_LOGIN = 'ADMIN_LOGIN';
+export const ADMIN_LOGOUT = 'ADMIN_LOGOUT';
+export const ADMIN_SETTINGS = 'ADMIN_SETTINGS';
+export const ADMIN_UPDATE = 'ADMIN_UPDATE';
+export const ALL_WITHDRAWAL = 'ALL_WITHDRAWAL';
